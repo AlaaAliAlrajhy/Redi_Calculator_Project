@@ -29,3 +29,6 @@ def calculate(label_result):
 # Handle any other error that may occur during calculation:
         equation = "Error"
         label_result.config(text=equation)
+
+    equation = ""      # clear the label result and start new operation
+        
